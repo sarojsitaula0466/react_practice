@@ -1,0 +1,9 @@
+.bgColor {
+  background-color: aqua;
+  height: 200px;
+}
+.pic {
+  background-image: url(../../images/image-1.jpg);
+
+  height: "300px";
+}

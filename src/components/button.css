@@ -1,0 +1,25 @@
+:root {
+  --primary: #4628ff;
+  --border: #1976d2;
+  --white: #ffffff;
+}
+
+.blueBackground {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.whiteBackground {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 3px;
+}
+.noBackground {
+    color:var(--border)
+}
+.btn-medium {
+  padding: 0.4rem 2rem;
+}
+.btn-small {
+  padding: 0.4rem 1rem;
+}

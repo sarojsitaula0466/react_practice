@@ -1,0 +1,8 @@
+.imgAndBackground {
+  height: 300px;
+  background-color: #fafafa;
+}
+.imgAndBackground>img{
+    width:100%;
+    height:300px;
+}

@@ -1,0 +1,33 @@
+.serviceContent {
+
+  margin-bottom: 33px;
+  background-color: cyan;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 6px #00000029;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.serviceContent > img {
+  display: block;
+  margin: auto;
+  padding-top: 17px;
+  padding-bottom: 20px;
+  height: 91px;
+  width: 88px;
+}
+.serviceContent > h1 {
+  text-align: center;
+  padding-bottom: 37px;
+  font: Bold 22px/35px Poppins;
+  letter-spacing: 0px;
+  color: #10131a;
+}
+.serviceContent > p {
+  width: 66%;
+  margin: auto;
+  padding-bottom: 27px;
+  font: Regular 20px/24px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #333333;
+}
