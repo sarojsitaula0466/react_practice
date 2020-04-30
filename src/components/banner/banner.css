@@ -1,0 +1,16 @@
+.banner-container{
+    width: 80%;
+    height: 500px;
+    background: rgb(180, 169, 169);
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.image-container{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+  
