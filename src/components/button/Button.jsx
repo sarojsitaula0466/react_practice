@@ -4,7 +4,7 @@ import "./button.css";
 const STYLES=['blueBackground','whiteBackground','noBackground']
 const SIZES=['btn-medium','btn-small']
 
-export const Button = ({
+ const Button = ({
   children,
   type,
   onClick,
@@ -19,3 +19,4 @@ export const Button = ({
     </button>
   );
 };
+export default Button

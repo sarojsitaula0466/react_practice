@@ -1,14 +1,31 @@
-import React, { Component } from 'react'
-import Header from './header/header'
-import Content from './content/content'
+import React from 'react'
+import './banner.css'
+const Banner = ({ children, image,bgColor}) => {
+  // const imagestyle={
+  // backgroundImage:'url('+ image +')',
+  // backgroundSize: '100% 100%',
+  // backgroundPosition: 'center',
+  // backgroundRepeat: 'no-repeat',
+  // height:'500px'
 
-export default class Banner extends Component {
-    render() {
-        return (
-            <div>
-                <Header children={<Content />} />
-
-            </div>
-        )
-    }
+  // }
+  return image ? (
+    <div
+      className="image-container"
+      style={{
+        backgroundImage: 'url(' + image + ')',
+        backgroundSize: '100% 100%',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      {children}
+    </div>
+  ) : (
+    <div className="banner-container" style={{background:bgColor}}>
+      {children}
+    </div>
+  )
 }
+
+export default Banner
